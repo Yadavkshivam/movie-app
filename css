@@ -1,0 +1,91 @@
+*{
+    margin: 0%;
+    padding:0%;
+}
+
+.fnav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 6px;
+    color: whitesmoke;
+    background-color: rgb(42,42,68);
+}
+
+.fnav .left{
+    display: flex;
+    margin-top: 10px;
+}
+.left img{
+    width: 22%;
+}
+.left input{
+    margin-inline: 11px;
+    width: 420px;
+    height: 33px;
+    border: none;
+    outline: none;
+    text-align: center;
+    margin-top: 16px;
+    border-radius: 2px;
+
+}
+
+.fnav .right{
+    display: flex;
+    margin-top: 11px;
+
+}
+.right p{
+    margin-inline: 22px;
+    font-size: 22px;
+
+}
+.right button{
+    margin-inline: 22px;
+    width: 80px;
+    height: 27px;
+    border: none;
+    border-radius: 2px;
+    background-color: rgb(244,69,98);
+    color: white;
+
+}
+.right i{
+    margin-inline: 22px;
+    font-size: 22px;
+}
+
+.sec-nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 9px;
+    background-color: rgb(26,26,48);
+    color: white;
+}
+
+.sec-nav .s-left{
+    display: flex;
+}
+
+.sec-nav .s-right{
+    display: flex;
+}
+
+.sec-nav p:hover{
+    color: rgb(245,70,99);
+    cursor: pointer;
+    font-weight: 600;
+
+}
+
+.s-left p{
+    margin-inline-start: 18px;
+
+}
+
+.s-right p{
+    margin-inline-start: 22px;
+    
+}
